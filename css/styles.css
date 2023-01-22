@@ -295,15 +295,12 @@ body {
 /*footer*/
 
 .footer {
-    height: 310px;
     background-color: var(--dark-color);
-    position: relative;
 }
 
 .footer-box {
     width: 264px;
-    position: absolute;
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 .paragraph-footer {
@@ -316,15 +313,16 @@ body {
 
 .portfolio {
     
-    height: 1692px;
+    /* height: 1692px; */
     background-color: var(--white-color);
     position: relative;
+    padding-top: 0;
 }
 
 .portfolio-btn-list {
     display: flex;
+    justify-content: center;
     padding-top: 96px;
-    padding-left: 427px;
     gap: 24px;
 }
 
