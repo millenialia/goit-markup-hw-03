@@ -160,7 +160,7 @@ body {
 
 .header {
     background-color: var(--white-color);
-    width: 1440px;
+    
     height: 72px;
     border-bottom: 1px solid #E7E9FC;
 }
@@ -213,7 +213,6 @@ body {
 /*order*/
 
 .order {
-    width: 1440px;
     height: 600px;
     background-color: var(--dark-color);
     position: relative;
@@ -231,8 +230,6 @@ body {
 /*features*/
 
 .features {
-    width: 1440px;
-    height: 104px;
     padding-bottom: 0;
     background-color: var(--white-color)
 }
@@ -252,8 +249,6 @@ body {
 /*about*/
 
 .about {
-    width: 1440px;
-    height: 412px;
     background-color: var(--white-color);
     position: relative;
 }
@@ -272,8 +267,6 @@ body {
 /*team*/
 
 .team {
-    width: 1440px;
-    height: 492px;
     background-color: var(--light-color);
 }
 
@@ -302,7 +295,6 @@ body {
 /*footer*/
 
 .footer {
-    width: 1440px;
     height: 310px;
     background-color: var(--dark-color);
     position: relative;
@@ -323,7 +315,7 @@ body {
 /*portfolio*/
 
 .portfolio {
-    width: 1440px;
+    
     height: 1692px;
     background-color: var(--white-color);
     position: relative;
