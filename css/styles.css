@@ -42,7 +42,7 @@ body {
 
 
 .container{
-    width: 1128px;
+    width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -102,7 +102,7 @@ body {
     letter-spacing: 0.02em;
     font-weight: 400;
     color: var(--text-color);
-    padding-top: 8px;
+    margin-top: 8px;
 }
 
 
@@ -213,19 +213,9 @@ body {
 /*order*/
 
 .order {
-    height: 600px;
+    padding: 188px 0;
     background-color: var(--dark-color);
-    position: relative;
 }
-
-.order-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-
 
 /*features*/
 
@@ -233,7 +223,6 @@ body {
     padding-bottom: 0;
     background-color: var(--white-color)
 }
-
 
 .features-box {
     display: flex;
@@ -255,7 +244,7 @@ body {
 
 .about-box {
     display: flex;
-    padding-top: 72px;
+    margin-top: 72px;
     gap: 24px;
 }
 
@@ -272,7 +261,7 @@ body {
 
 .team-box {
     display: flex;
-    padding-top: 72px;
+    margin-top: 72px;
     gap: 24px;
 }
 
@@ -296,40 +285,37 @@ body {
 
 .footer {
     background-color: var(--dark-color);
+    padding: 100px 0;
 }
 
 .footer-box {
     width: 264px;
-    padding: 100px 0;
 }
 
 .paragraph-footer {
     color: var(--accent-color);
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 
 /*portfolio*/
 
 .portfolio {
-    
-    /* height: 1692px; */
     background-color: var(--white-color);
     position: relative;
-    padding-top: 0;
+    padding-top: 96px;
 }
 
 .portfolio-btn-list {
     display: flex;
     justify-content: center;
-    padding-top: 96px;
     gap: 24px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 48px;
+    margin-top: 48px;
     row-gap: 48px;
     column-gap: 24px;
 }
